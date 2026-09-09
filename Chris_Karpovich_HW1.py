@@ -1,7 +1,6 @@
 # Chris Karpovich - Week 1: your first Streamlit app
 # Run with:  streamlit run Chris_Karpovich_HW1.py
 import streamlit as st
-import plotly.express as px
 import pandas as pd
 
 df = pd.read_csv("mlbstats.csv")
