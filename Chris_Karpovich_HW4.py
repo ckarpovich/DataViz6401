@@ -28,7 +28,8 @@ shown.plot(ax = ax, figsize = (9,4))
 ax.set_ylabel('Google Trends Interest')
 ax.set_title("Ravens Search Interest Since 2004")
 st.caption("Temporal-Honesty: I kept the monthly data from my export so that the seasonal patterns would be easily visible.  For the first line graph," \
-"I allowed the user of the app to change resolution to quarterly or yearly to see patterns over different increments of time.  Seasonal decomposition still keeps those monthly increments.")
+"I allowed the user of the app to change resolution to quarterly or yearly to see patterns over different increments of time.  Seasonal decomposition still keeps those monthly increments." \
+"It is important to note that when using the yearly or quarterly options, 2026 is not fully complete.  This could influence one's interpretation of the charts if not properly noted. ")
 st.pyplot(fig)
 
 
