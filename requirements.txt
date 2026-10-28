@@ -8,3 +8,5 @@ network
 pyvis
 bertopic
 umap-learn
+matplotlib
+folium
