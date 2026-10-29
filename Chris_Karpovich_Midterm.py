@@ -142,7 +142,7 @@ with map:
 
     components.html(m3._repr_html_(), height=550)
 
-    st.subheader("Concluding Thoughts")
+
     st.caption("Looking at the 3 maps, you can start to see a pattern.  The stations with higher elevation tend to record lower average highs and lower average lows per month.  This aligns with what meteorological studies have shown, that higher elevation tends to" \
     " relate to lower average temperatures.  It is also interesting to look specifically at the elevation map.  Picking out the darker red (higher elevation) stations you can start to vaguely see the path of mountain ranges in the state.  However, these maps only" \
     " provide a look into specific monthly average minimum and maximum temperatures.  In the next tab (Weather Over Time) we will examine how temperature and precipitation fluctuate over certain time periods")
