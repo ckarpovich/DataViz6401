@@ -17,7 +17,9 @@ tab, tab2 = st.tabs(["Supercharger Map", "County Population Analysis"])
 
 df = pd.read_csv("superchargers_us.csv")
 pop = pd.read_csv("countypop25.csv")
-c = gpd.read_file("tl_2026_us_county/tl_2026_us_county.shp")
+
+#Zip for GitHub
+c = gpd.read_file("zip://tl_2026_us_county.zip!tl_2026_us_county/tl_2026_us_county.shp")
 
 #Keep only US States (Not outlying terriroties)
 c = c[c["STATEFP"].astype(int) <= 56]
