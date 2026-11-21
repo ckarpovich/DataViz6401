@@ -31,7 +31,9 @@ acc = accuracy_score(y_test, y_pred)
 st.write("Accuracy: ", acc)
 
 st.title("MLB Player Batting Average Prediction")
-st.caption("Predicting whether a player will hit above or below a .200 batting average next season (Mendoza Line)")
+st.caption("This app is designed to predict whether a player will hit above or below a .200 batting average next season (Mendoza Line). The app uses the MLB Stats API" \
+" to retrieve a batters batting average, home runs, hits, strikeouts, walks, and RBIs.  A logistic regression model is trained on historic data and is used to predict whether a " \
+"hitter will hit above or below a .200 average.  The .200 average is referred to as the Mendoza Line and is a cutoff for batting futility.")
 
 st.caption("""
 Example Player IDs:
