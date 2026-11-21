@@ -13,3 +13,4 @@ folium
 numpy
 geopandas
 shapely
+requests
