@@ -27,8 +27,8 @@ model = LogisticRegression(max_iter=1000)
 model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
-acc = accuracy_score(y_test, y_pred)
-st.write("Accuracy: ", acc)
+#acc = accuracy_score(y_test, y_pred)
+#st.write("Accuracy: ", acc)
 
 st.title("MLB Player Batting Average Prediction")
 st.caption("This app is designed to predict whether a player will hit above or below a .200 batting average next season (Mendoza Line). The app uses the MLB Stats API" \
